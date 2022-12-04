@@ -1,0 +1,280 @@
+@media (max-width: 375px) {
+  .container {
+    max-width: 349px;
+  }
+  .header {
+    padding: 0 18px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__btn {
+    display: none;
+  }
+  .desctop-logo {
+    display: none;
+  }
+  .mobile-logo {
+    display: inline-block;
+  }
+  .header__burger {
+    display: block;
+  }
+  .br {
+    display: inline;
+  }
+  .hero {
+    height: auto;
+  }
+  .hero__content {
+    margin-top: 40px;
+    width: 90%;
+  }
+  .hero__title {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  .hero__desc {
+    font-size: 14px;
+    width: 286px;
+  }
+  .hero__btn {
+    margin: 32px 0 60px;
+  }
+  .hero__btn-bt {
+    font-size: 14px;
+    width: 139px;
+    height: 44px;
+    padding: 0;
+  }
+  .hero__btn-arrow {
+    display: none;
+  }
+  .hero__social {
+    width: 330px;
+    grid-template-columns: 1fr;
+    margin-left: 35px;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .hero__social img {
+    margin: 0 11px 0 35px;
+  }
+  .hero__social-card {
+    grid-area: auto;
+    width: 293px;
+    height: 70px;
+  }
+  .hero__social-txt {
+    font-size: 20px;
+  }
+  .open__title {
+    font-size: 36px;
+    padding-top: 80px;
+  }
+  .open__social {
+    width: 339px;
+    height: 118px;
+    margin-top: 80px;
+  }
+  .open__social-card {
+    width: 291px;
+    height: 69.93px;
+    font-size: 20px;
+  }
+  .open__social-card svg {
+    margin: 0 13px 0 33px;
+  }
+  .open__arrow-1 {
+    bottom: -50px;
+    left: 5px;
+  }
+  .open__arrow-1 svg {
+    transform: rotate(-30deg);
+  }
+  .open__arrow-txt {
+    font-size: 12px;
+  }
+  .txt-1 {
+    transform: rotate(0);
+  }
+  .open__arrow-2 {
+    top: -50px;
+    right: 5px;
+  }
+  .arrow__1 {
+    display: none;
+  }
+  .arrow__2 {
+    display: block;
+    margin: 0;
+  }
+  .open__desc {
+    font-size: 14px;
+    max-width: 300px;
+    margin-top: 80px;
+    padding-bottom: 80px;
+  }
+  .longtext__txt {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    padding: 80px 0 80px;
+    max-width: 345px;
+  }
+  .partner {
+    padding: 80px 0 80px;
+  }
+  .partner__title {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+  }
+  .partner__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 32px;
+  }
+  .partner__card {
+    width: 162px;
+    height: 74px;
+  }
+  .partner__card img {
+    width: 70%;
+    object-position: center;
+  }
+  .platform__title {
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 43px;
+    padding: 80px 0 32px;
+    text-align: center;
+  }
+  .platform__btns {
+    height: 65px;
+    width: 340px;
+    overflow-y: scroll;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+  }
+  .platform__btn {
+    width: 64px;
+    height: 64px;
+  }
+  .platform__btn img {
+    width: 50%;
+  }
+  .platform__tweets {
+    margin-top: 32px;
+    width: 100%;
+  }
+  .platform__tweets .tweet1{
+    margin-bottom: 16px;
+  }
+  .platform__tweets .tweet2{
+    margin-bottom: 16px;
+  }
+  .platform__tweets .tweet3{
+    margin-bottom: 32px;
+  }
+  .platform__button {
+    font-size: 14px;
+    width: 152px;
+    height: 44px;
+    margin-bottom: 80px;
+  }
+  .packets {
+    padding: 80px 0 80px;
+  }
+  .packets__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 32px;
+  }
+  .packets__btn {
+    margin: 0 0 80px 0;
+  }
+  .packets__btn label {
+    font-size: 18px;
+  }
+  .packets__btn span {
+    height: 44px;
+  }
+  .packets__btn .indicator {
+    width: 28px;
+    height: 28px;
+  }
+  .arrow__3 {
+    display: none;
+  }
+  .arrow__4 {
+    display: block;
+    margin-left: 25px;
+  }
+  .packets__arrow {
+    bottom: -60px;
+    right: 10px;
+  }
+  .packets__arrow-txt {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .packets__cards {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+    margin-top: 0;
+  }
+  .card {
+    width: 339px;
+    height: 602px;
+  }
+  .card__content {
+    padding: 30px;
+  }
+  .card__title {
+    font-size: 32px;
+  }
+  .card__desc {
+    margin: 14px 0 56px;
+  }
+  .card__desc::after {
+    bottom: -24px;
+  }
+  .card__price {
+    font-size: 60px;
+    margin-bottom: 27px;
+  }
+  .card__button {
+    margin-bottom: 24px;
+  }
+  .join {
+    padding: 80px 0;
+  }
+  .join__title {
+    font-size: 36px;
+  }
+  .join__btn {
+    font-size: 14px;
+    width: 106px;
+    height: 44px;
+    margin-top: 32px;
+  }
+  .footer {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 0;
+  }
+  .footer__logo {
+    margin-bottom: 80px;
+  }
+  .footer__nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer__link:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
